@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="Author" content="Van Khuong" />
+    <title>Demo | Slider đơn giản với jQuery</title>
+    <link rel="stylesheet" type="text/css" href="reset.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="jquery.vkslider.js"></script>
+    <!--[if lt IE 9]>
+        <script type="text/javascript" src="html5.js"></script>
+    <![endif]-->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            vk_slideshow(5000);
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1 class="title">Demo | Slider đơn giản với jQuery</h1>
+        <p class="credits"><em>by:</em>  <a href="http://www.sothichweb.com/">sothichweb.com</a>
+        </p>
+    </header>
+    <article>
+        <div id="wrap-slide">
+            <div id="slideshow">
+                <ul>
+                    <li class="current">
+                        <img src="images/image1.jpg" />
+                        <p><span><a href="http://sothichweb.com/article/slider_don_gian_voi_jQuery/03d05da">Slider đơn giản với jQuery</a> <br />Tutorial by <a href="http://sothichweb.com">sothichweb.com</a></span>
+                        </p>
+                    </li>
+                    <li>
+                        <img src="images/image2.jpg" />
+                        <p><span><a href="http://sothichweb.com/article/slider_voi_javascript_DOM/671240d">Slider với Javascript-DOM</a><br />Tutorial by <a href="http://sothichweb.com">sothichweb.com</a></span</p></li>
+                    <li><img src="images/image3.jpg" /><p><span><a href="http://sothichweb.com/article/kiem_tra_form_hop_le_voi_javascript/8b70737">Kiểm tra form hợp lệ với Javascript</a><br />Tutorial by <a href="http://sothichweb.com">sothichweb.com</a></span</p></li>
+                    <li><img src="images/image4.jpg" /><p><span><a href="http://sothichweb.com/article/css3_transform_transition/8517dc8">CSS3 transform - transition</a><br />Tutorial by <a href="http://sothichweb.com">sothichweb.com</a></span</p></li>
+                </ul>
+                <span id="prev">prev</span><span id="next">next</span>
+                <p id="controlNav"></p>
+            </div>
+        </div>
+    </article>
+    <footer>
+        <p class="footer"><a href="http://sothichweb.com/article/slider_don_gian_voi_jQuery/03d05da">www.sothichweb.com/article/slider_don_gian_voi_jQuery/03d05da</a>
+        </p>
+    </footer>
+</body>
+
+</html>
