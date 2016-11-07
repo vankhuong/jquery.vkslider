@@ -1,6 +1,6 @@
 * jquery.vkslider 1.0
 
-* Copyright 2012-2014, Van Khuong (www.sothichweb.com)
+* @VanKhuong
 * Licensed under the MIT
 * Released on: June 21, 2012
 
